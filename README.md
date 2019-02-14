@@ -12,7 +12,7 @@ check out the examples section below.
 
 ## Installing
 
-Just `npm install werewolf-brain`.
+Just add this entry to your `package.json`: `werewolf-brain": "git+ssh://git@github.com:hacobgarcia/werewolf-brain.git#master",`.
 
 ## What does it do?
 
