@@ -6,7 +6,9 @@
 _scenarios_ to play the party card game
 [Ultimate Werewolf](https://en.wikipedia.org/wiki/Ultimate_Werewolf "Wikipedia").
 There are several ways to craft fun games with this library. For more on usage,
-check out the examples section below. This forked version includes custom roles based on _Themi Tambassopoulos_ [BoardGamesGeek post](https://imgur.com/a/13ugp).
+check out the examples section below.
+
+**This forked version includes custom roles based on** _Themi Tambassopoulos_ [BoardGamesGeek post](https://imgur.com/a/13ugp).
 
 ## Installing
 
