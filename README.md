@@ -12,7 +12,7 @@ check out the examples section below.
 
 ## Installing
 
-Just add this entry to your `package.json`: `werewolf-brain": "git+ssh://git@github.com:jacobgarcia/werewolf-brain.git#master"`.
+Just add this entry to your `package.json`: `werewolf-brain": "git+ssh://git@github.com:jacobgarcia/werewolf-brain.git#master`
 
 ## What does it do?
 
@@ -86,7 +86,7 @@ const game = {
 | Spellcaster      | -     | -      | -       | -        | 1         | 1        |
 | Tanner           | -     | -      | 1       | -        | 1         | 1        |
 | Vampire          | -     | -      | -       | -        | -         | 8        |
-| Villager         | 20    | 20     | 20      | 20       | 20        | 20       |
+| Villager         | 15    | 15     | 15      | 15       | 15        | 15       |
 | Werewolf         | 12    | 12     | 12      | 12       | 12        | 12       |
 | Wild Child       | -     | -      | -       | -        | 1         | -        |
 | Witch            | -     | -      | -       | -        | 1         | 1        |
