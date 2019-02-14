@@ -12,7 +12,7 @@ check out the examples section below.
 
 ## Installing
 
-Just add this entry to your `package.json`: `werewolf-brain": "git+ssh://git@github.com:hacobgarcia/werewolf-brain.git#master",`.
+Just add this entry to your `package.json`: `werewolf-brain": "git+ssh://git@github.com:jacobgarcia/werewolf-brain.git#master",`.
 
 ## What does it do?
 
