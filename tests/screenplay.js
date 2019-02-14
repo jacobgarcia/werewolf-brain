@@ -10,17 +10,17 @@ describe('Screenplay', () => {
     describe('fromGame()', () => {
         beforeEach(function () {
             const deck = [
-                { key: 'villager', amount: 25, },
-                { key: 'werewolf', amount: 12, },
-                { key: 'seer', amount: 1, },
-                { key: 'cupid', amount: 1, },
-                { key: 'cult_leader', amount: 1, },
+                { key: 'villager', amount: 20 },
+                { key: 'werewolf', amount: 12 },
+                { key: 'seer', amount: 1 },
+                { key: 'cupid', amount: 1 },
+                { key: 'cult_leader', amount: 1 }
             ];
 
             const gameDeck = [
-                { key: 'werewolf', amount: 1, },
-                { key: 'cult_leader', amount: 1, },
-                { key: 'villager', amount: 7, },
+                { key: 'werewolf', amount: 1 },
+                { key: 'cult_leader', amount: 1 },
+                { key: 'villager', amount: 7 },
                 { key: 'cupid', amount: 1 }
             ];
 
@@ -28,9 +28,7 @@ describe('Screenplay', () => {
         });
 
         it('is expected to not be null or undefined', function () {
-            expect(this.screenplay)
-                .to.not.be.undefined
-                .and.to.not.be.null;
+            expect(this.screenplay).to.not.be.undefined.and.to.not.be.null;
         });
 
         it('is expected to be an array', function () {

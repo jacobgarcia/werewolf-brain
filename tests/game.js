@@ -8,7 +8,7 @@ const cards = [
     { key: 'prince', value: 3, amount: 1 },
     { key: 'seer', value: 7, amount: 1 },
     { key: 'tanner', value: 1, amount: 1 },
-    { key: 'villager', value: 1, amount: 20 },
+    { key: 'villager', value: 1, amount: 15 },
     { key: 'werewolf', value: -6, amount: 12 },
     { key: 'witch', value: 4, amount: 1 },
     { key: 'wolf_cub', value: -8, amount: 1 }
@@ -18,7 +18,6 @@ const language = 'en';
 
 describe('Game', () => {
     const players = 25;
-
 
     it('should have both modes.', () => {
         game.mode.should.have.property('NORMAL');

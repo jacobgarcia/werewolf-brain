@@ -16,7 +16,7 @@ describe('Decks', () => {
         const noviceDeck = {
             mayor: 1,
             seer: 1,
-            villager: 20,
+            villager: 15,
             werewolf: 12
         };
         decks.get('Novice').should.deepEqual(noviceDeck);
